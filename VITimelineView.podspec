@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.platform = :ios, '9.0'
 
     s.source = { :git => 'https://github.com/VideoFlint/VITimelineView.git', :tag => s.version.to_s }
-    s.source_files = ['VITimelineViewDemo/Sources/**/*.{h,m}']
+    s.source_files = ['VITimelineViewDemo/Source/**/*.{h,m}']
 
     s.requires_arc = true
 
