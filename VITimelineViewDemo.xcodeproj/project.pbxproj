@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2F55A8219D0E5F006DC9F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55A7219D0E5F006DC9F2 /* AppDelegate.m */; };
+		5F2F55AB219D0E5F006DC9F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55AA219D0E5F006DC9F2 /* ViewController.m */; };
+		5F2F55AE219D0E5F006DC9F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F55AC219D0E5F006DC9F2 /* Main.storyboard */; };
+		5F2F55B0219D0E60006DC9F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F55AF219D0E60006DC9F2 /* Assets.xcassets */; };
+		5F2F55B3219D0E60006DC9F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F55B1219D0E60006DC9F2 /* LaunchScreen.storyboard */; };
+		5F2F55B6219D0E60006DC9F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55B5219D0E60006DC9F2 /* main.m */; };
+		5F2F55C9219D0E89006DC9F2 /* VIRangeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55BD219D0E88006DC9F2 /* VIRangeContentView.m */; };
+		5F2F55CA219D0E89006DC9F2 /* VIAutoScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55BE219D0E88006DC9F2 /* VIAutoScroller.m */; };
+		5F2F55CB219D0E89006DC9F2 /* VIRangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55C0219D0E88006DC9F2 /* VIRangeView.m */; };
+		5F2F55CC219D0E89006DC9F2 /* VIVideoRangeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55C2219D0E88006DC9F2 /* VIVideoRangeContentView.m */; };
+		5F2F55CD219D0E89006DC9F2 /* VIRangeEarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55C6219D0E89006DC9F2 /* VIRangeEarView.m */; };
+		5F2F55CE219D0E89006DC9F2 /* VIDisplayTriggerMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55C8219D0E89006DC9F2 /* VIDisplayTriggerMachine.m */; };
+		5F2F55D1219D0E8E006DC9F2 /* VITimelineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F55D0219D0E8E006DC9F2 /* VITimelineView.m */; };
+		5F365F4621B0164B00E5DE39 /* CachedAssetImageGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F365F4521B0164B00E5DE39 /* CachedAssetImageGenerator.m */; };
+		5F47802821B0C86C00C062CA /* VIRangeContentAssetImageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F47802721B0C86C00C062CA /* VIRangeContentAssetImageDataSource.m */; };
+		5F47802C21B0CC0C00C062CA /* VIRangeView+Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F47802B21B0CC0C00C062CA /* VIRangeView+Creator.m */; };
+		5F47802F21B0CCFF00C062CA /* VITimelineView+Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F47802E21B0CCFF00C062CA /* VITimelineView+Creator.m */; };
+		5F47803221B220EC00C062CA /* water.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5F47803021B220EC00C062CA /* water.mp4 */; };
+		5F47803321B220EC00C062CA /* bamboo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5F47803121B220EC00C062CA /* bamboo.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F2F55A3219D0E5F006DC9F2 /* VITimelineViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VITimelineViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2F55A6219D0E5F006DC9F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F2F55A7219D0E5F006DC9F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F2F55A9219D0E5F006DC9F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F2F55AA219D0E5F006DC9F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F2F55AD219D0E5F006DC9F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F2F55AF219D0E60006DC9F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F2F55B2219D0E60006DC9F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F2F55B4219D0E60006DC9F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2F55B5219D0E60006DC9F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F2F55BD219D0E88006DC9F2 /* VIRangeContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIRangeContentView.m; sourceTree = "<group>"; };
+		5F2F55BE219D0E88006DC9F2 /* VIAutoScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIAutoScroller.m; sourceTree = "<group>"; };
+		5F2F55BF219D0E88006DC9F2 /* VIDisplayTriggerMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIDisplayTriggerMachine.h; sourceTree = "<group>"; };
+		5F2F55C0219D0E88006DC9F2 /* VIRangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIRangeView.m; sourceTree = "<group>"; };
+		5F2F55C1219D0E88006DC9F2 /* VIVideoRangeContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIVideoRangeContentView.h; sourceTree = "<group>"; };
+		5F2F55C2219D0E88006DC9F2 /* VIVideoRangeContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIVideoRangeContentView.m; sourceTree = "<group>"; };
+		5F2F55C3219D0E89006DC9F2 /* VIRangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIRangeView.h; sourceTree = "<group>"; };
+		5F2F55C4219D0E89006DC9F2 /* VIAutoScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIAutoScroller.h; sourceTree = "<group>"; };
+		5F2F55C5219D0E89006DC9F2 /* VIRangeEarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIRangeEarView.h; sourceTree = "<group>"; };
+		5F2F55C6219D0E89006DC9F2 /* VIRangeEarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIRangeEarView.m; sourceTree = "<group>"; };
+		5F2F55C7219D0E89006DC9F2 /* VIRangeContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIRangeContentView.h; sourceTree = "<group>"; };
+		5F2F55C8219D0E89006DC9F2 /* VIDisplayTriggerMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIDisplayTriggerMachine.m; sourceTree = "<group>"; };
+		5F2F55CF219D0E8E006DC9F2 /* VITimelineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VITimelineView.h; sourceTree = "<group>"; };
+		5F2F55D0219D0E8E006DC9F2 /* VITimelineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VITimelineView.m; sourceTree = "<group>"; };
+		5F2F563021A436AC006DC9F2 /* UIView+ConstraintHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ConstraintHolder.h"; sourceTree = "<group>"; };
+		5F365F4421B0164B00E5DE39 /* CachedAssetImageGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CachedAssetImageGenerator.h; sourceTree = "<group>"; };
+		5F365F4521B0164B00E5DE39 /* CachedAssetImageGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CachedAssetImageGenerator.m; sourceTree = "<group>"; };
+		5F47802621B0C86C00C062CA /* VIRangeContentAssetImageDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIRangeContentAssetImageDataSource.h; sourceTree = "<group>"; };
+		5F47802721B0C86C00C062CA /* VIRangeContentAssetImageDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIRangeContentAssetImageDataSource.m; sourceTree = "<group>"; };
+		5F47802A21B0CC0C00C062CA /* VIRangeView+Creator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIRangeView+Creator.h"; sourceTree = "<group>"; };
+		5F47802B21B0CC0C00C062CA /* VIRangeView+Creator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VIRangeView+Creator.m"; sourceTree = "<group>"; };
+		5F47802D21B0CCFF00C062CA /* VITimelineView+Creator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VITimelineView+Creator.h"; sourceTree = "<group>"; };
+		5F47802E21B0CCFF00C062CA /* VITimelineView+Creator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VITimelineView+Creator.m"; sourceTree = "<group>"; };
+		5F47803021B220EC00C062CA /* water.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = water.mp4; sourceTree = "<group>"; };
+		5F47803121B220EC00C062CA /* bamboo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bamboo.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F2F55A0219D0E5F006DC9F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2F559A219D0E5F006DC9F2 = {
+			isa = PBXGroup;
+			children = (
+				5F2F55A5219D0E5F006DC9F2 /* VITimelineViewDemo */,
+				5F2F55A4219D0E5F006DC9F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F2F55A4219D0E5F006DC9F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F55A3219D0E5F006DC9F2 /* VITimelineViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F2F55A5219D0E5F006DC9F2 /* VITimelineViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F55BC219D0E7A006DC9F2 /* Source */,
+				5F2F55A6219D0E5F006DC9F2 /* AppDelegate.h */,
+				5F2F55A7219D0E5F006DC9F2 /* AppDelegate.m */,
+				5F2F55A9219D0E5F006DC9F2 /* ViewController.h */,
+				5F2F55AA219D0E5F006DC9F2 /* ViewController.m */,
+				5F2F55AC219D0E5F006DC9F2 /* Main.storyboard */,
+				5F2F55AF219D0E60006DC9F2 /* Assets.xcassets */,
+				5F2F55B1219D0E60006DC9F2 /* LaunchScreen.storyboard */,
+				5F47803121B220EC00C062CA /* bamboo.mp4 */,
+				5F47803021B220EC00C062CA /* water.mp4 */,
+				5F2F55B4219D0E60006DC9F2 /* Info.plist */,
+				5F2F55B5219D0E60006DC9F2 /* main.m */,
+			);
+			path = VITimelineViewDemo;
+			sourceTree = "<group>";
+		};
+		5F2F55BC219D0E7A006DC9F2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5F47802921B0CBEC00C062CA /* Convenient */,
+				5F47802521B0C82800C062CA /* DataSource */,
+				5F2F55D2219D0ED4006DC9F2 /* Utils */,
+				5F2F55CF219D0E8E006DC9F2 /* VITimelineView.h */,
+				5F2F55D0219D0E8E006DC9F2 /* VITimelineView.m */,
+				5F2F55C7219D0E89006DC9F2 /* VIRangeContentView.h */,
+				5F2F55BD219D0E88006DC9F2 /* VIRangeContentView.m */,
+				5F2F55C5219D0E89006DC9F2 /* VIRangeEarView.h */,
+				5F2F55C6219D0E89006DC9F2 /* VIRangeEarView.m */,
+				5F2F55C3219D0E89006DC9F2 /* VIRangeView.h */,
+				5F2F55C0219D0E88006DC9F2 /* VIRangeView.m */,
+				5F2F55C1219D0E88006DC9F2 /* VIVideoRangeContentView.h */,
+				5F2F55C2219D0E88006DC9F2 /* VIVideoRangeContentView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5F2F55D2219D0ED4006DC9F2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F55C4219D0E89006DC9F2 /* VIAutoScroller.h */,
+				5F2F55BE219D0E88006DC9F2 /* VIAutoScroller.m */,
+				5F2F55BF219D0E88006DC9F2 /* VIDisplayTriggerMachine.h */,
+				5F2F55C8219D0E89006DC9F2 /* VIDisplayTriggerMachine.m */,
+				5F2F563021A436AC006DC9F2 /* UIView+ConstraintHolder.h */,
+				5F365F4421B0164B00E5DE39 /* CachedAssetImageGenerator.h */,
+				5F365F4521B0164B00E5DE39 /* CachedAssetImageGenerator.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5F47802521B0C82800C062CA /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				5F47802621B0C86C00C062CA /* VIRangeContentAssetImageDataSource.h */,
+				5F47802721B0C86C00C062CA /* VIRangeContentAssetImageDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		5F47802921B0CBEC00C062CA /* Convenient */ = {
+			isa = PBXGroup;
+			children = (
+				5F47802A21B0CC0C00C062CA /* VIRangeView+Creator.h */,
+				5F47802B21B0CC0C00C062CA /* VIRangeView+Creator.m */,
+				5F47802D21B0CCFF00C062CA /* VITimelineView+Creator.h */,
+				5F47802E21B0CCFF00C062CA /* VITimelineView+Creator.m */,
+			);
+			path = Convenient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F2F55A2219D0E5F006DC9F2 /* VITimelineViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2F55B9219D0E60006DC9F2 /* Build configuration list for PBXNativeTarget "VITimelineViewDemo" */;
+			buildPhases = (
+				5F2F559F219D0E5F006DC9F2 /* Sources */,
+				5F2F55A0219D0E5F006DC9F2 /* Frameworks */,
+				5F2F55A1219D0E5F006DC9F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VITimelineViewDemo;
+			productName = VITimelineViewDemo;
+			productReference = 5F2F55A3219D0E5F006DC9F2 /* VITimelineViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F2F559B219D0E5F006DC9F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = vito;
+				TargetAttributes = {
+					5F2F55A2219D0E5F006DC9F2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F2F559E219D0E5F006DC9F2 /* Build configuration list for PBXProject "VITimelineViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F2F559A219D0E5F006DC9F2;
+			productRefGroup = 5F2F55A4219D0E5F006DC9F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F2F55A2219D0E5F006DC9F2 /* VITimelineViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F2F55A1219D0E5F006DC9F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2F55B3219D0E60006DC9F2 /* LaunchScreen.storyboard in Resources */,
+				5F2F55B0219D0E60006DC9F2 /* Assets.xcassets in Resources */,
+				5F2F55AE219D0E5F006DC9F2 /* Main.storyboard in Resources */,
+				5F47803221B220EC00C062CA /* water.mp4 in Resources */,
+				5F47803321B220EC00C062CA /* bamboo.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F2F559F219D0E5F006DC9F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F365F4621B0164B00E5DE39 /* CachedAssetImageGenerator.m in Sources */,
+				5F2F55CC219D0E89006DC9F2 /* VIVideoRangeContentView.m in Sources */,
+				5F2F55AB219D0E5F006DC9F2 /* ViewController.m in Sources */,
+				5F47802F21B0CCFF00C062CA /* VITimelineView+Creator.m in Sources */,
+				5F2F55CA219D0E89006DC9F2 /* VIAutoScroller.m in Sources */,
+				5F47802821B0C86C00C062CA /* VIRangeContentAssetImageDataSource.m in Sources */,
+				5F2F55C9219D0E89006DC9F2 /* VIRangeContentView.m in Sources */,
+				5F2F55D1219D0E8E006DC9F2 /* VITimelineView.m in Sources */,
+				5F2F55CB219D0E89006DC9F2 /* VIRangeView.m in Sources */,
+				5F2F55CE219D0E89006DC9F2 /* VIDisplayTriggerMachine.m in Sources */,
+				5F2F55B6219D0E60006DC9F2 /* main.m in Sources */,
+				5F47802C21B0CC0C00C062CA /* VIRangeView+Creator.m in Sources */,
+				5F2F55CD219D0E89006DC9F2 /* VIRangeEarView.m in Sources */,
+				5F2F55A8219D0E5F006DC9F2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F2F55AC219D0E5F006DC9F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2F55AD219D0E5F006DC9F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F2F55B1219D0E60006DC9F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2F55B2219D0E60006DC9F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F2F55B7219D0E60006DC9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F2F55B8219D0E60006DC9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F2F55BA219D0E60006DC9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZX7396L9W;
+				INFOPLIST_FILE = VITimelineViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VITimelineViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F2F55BB219D0E60006DC9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZX7396L9W;
+				INFOPLIST_FILE = VITimelineViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vito.VITimelineViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F2F559E219D0E5F006DC9F2 /* Build configuration list for PBXProject "VITimelineViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2F55B7219D0E60006DC9F2 /* Debug */,
+				5F2F55B8219D0E60006DC9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2F55B9219D0E60006DC9F2 /* Build configuration list for PBXNativeTarget "VITimelineViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2F55BA219D0E60006DC9F2 /* Debug */,
+				5F2F55BB219D0E60006DC9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F2F559B219D0E5F006DC9F2 /* Project object */;
+}
