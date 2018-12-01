@@ -29,7 +29,10 @@
     CGFloat widthPerSecond = 40;
     CGSize imageSize = CGSizeMake(30, 45);
     
-    VITimelineView *timelineView = [VITimelineView timelineViewWithAssets:@[asset1, asset2] imageSize:imageSize widthPerSecond:widthPerSecond];
+    VITimelineView *timelineView =
+    [VITimelineView timelineViewWithAssets:@[asset1, asset2]
+                                 imageSize:imageSize
+                            widthPerSecond:widthPerSecond];
     timelineView.delegate = self;
     timelineView.rangeViewDelegate = self;
     timelineView.backgroundColor = [UIColor colorWithRed:0.11 green:0.15 blue:0.34 alpha:1.00];

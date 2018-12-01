@@ -17,7 +17,10 @@ AVAsset *asset2 = ...;
 CGFloat widthPerSecond = 40;
 CGSize imageSize = CGSizeMake(30, 45);
 
-VITimelineView *timelineView = [VITimelineView timelineViewWithAssets:@[asset1, asset2] imageSize:imageSize widthPerSecond:widthPerSecond];
+VITimelineView *timelineView =
+[VITimelineView timelineViewWithAssets:@[asset1, asset2]
+                             imageSize:imageSize
+                        widthPerSecond:widthPerSecond];
 [self.view addSubview:timelineView];
 ```
 
@@ -33,6 +36,18 @@ rangeView.contentView = <Any Content View>;
 ```
 
 VIVideoRangeContentView is a subclass of VIRangeContentView.
+
+## Install
+
+**Cocoapods**
+
+```
+pod 'VITimelineView'
+```
+
+**Manually**
+
+Simplely drag `Source` folder to you project
 
 ## LICENSE
 
